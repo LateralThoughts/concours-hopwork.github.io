@@ -1,15 +1,305 @@
-
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Sirkulé, le konkour é fini !</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<link href="stylish.css" rel="stylesheet" media="all" />
-	</head>
-	<body>
-		<h1>Ayé, le konkour é fini</h1>
-		<h2>Cé Florent ka gagné!</h2>
-		<img src="flo.jpg" />
-		<p>Glwar a lui !</p>
-	</body>
+<head>
+  <title>Concours Biscuiterie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if IE 7]>
+      <link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+      <![endif]-->
+    <!--[if lt IE 9]>      
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>      
+      <![endif]-->
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+      <![endif]-->
+    </head>
+    <body>
+
+      <div id="menu" class="row">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>            
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="navbar-main" class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#a-propos">A propos</a></li>
+                <li><a href="#l-espace">L'espace</a></li>
+                <li><a href="#concours">Le concours</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="http://facebook.com/hopwork" class="social-icon" title="" target="_blank"><i class="icon-facebook"></i></a></li>
+                <li><a href="http://twitter.com/hopwork" class="social-icon" title="" target="_blank"><i class="icon-twitter"></i></a></li>
+              </ul>            
+            </div><!-- /.navbar-collapse -->  
+          </div>
+          
+        </nav>
+      </div>
+
+      <div class="row">
+        <div id="a-propos" class="col-md-12">
+
+          <div class="container">
+            <div class="row">
+              <div id="hopwork" class="col-md-6 col-xs-12 text-center">
+                <a href="http://www.hopwork.com/" target="_blank" title="">
+                  <img src="img/logo_hopwork.png" alt="HopWork" />
+                </a>
+              </div>
+              <div id="startway" class="col-md-6 col-xs-12 text-center">
+                <a href="http://www.start-way.com/" target="_blank" title="">
+                  <img src="img/logo_startway.png" alt="StartWay" />
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <img src="img/concours.png" alt="Concours" />
+              </div>              
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <h2>Hopwork & Start-Way <br>vous invitent &agrave; venir coworker <br>gratuitement pendant 1 mois !</h2>
+                <p>
+                  - Du 28 Octobre au 29 Novembre <br>
+                  - 10 Freelances invit&eacute;s <br>
+                  - 1 mois gratuit <br>
+                  <span style="width: 16px;display: inline-block;">&nbsp;</span>(329&euro; de coworking offert)
+                </p>
+              </div>
+              
+            </div>
+          </div>
+          <div class="container-bottom">
+            <div class="left"></div>
+            <div class="right">
+              <div class="arrow"></div>
+              <div class="right-fill"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="a-propos-next" class="col-md-12">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-1 col-xs-offset-0">
+                <h3>Venez coworker <span class="orange">gratuitement</span> pendant 1 mois avec HopWork !</h3>
+                <p>
+                  Vous &ecirc;tes freelance, ind&eacute;pendant, consultant, bref vous &ecirc;tes sur <a class="link hopwork" href="http://www.hopwork.com/" target="_blank" title="">Hopwork</a> et vous avez besoin de bureaux gratuitement pendant 1 mois. Nous vous invitons &agrave; venir coworker avec nous dans l'un des plus beaux espaces de coworking de la r&eacute;gion Parisienne : <a class="link biscuiterie" href="#" title="">&ldquo;La Biscuiterie&rdquo;</a>.
+                </p>    
+              </div>
+              <div id="hw-logo" class="hidden-xs">
+                &nbsp;
+              </div>
+            </div>
+            
+          </div>
+          <div class="shadow">
+
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row">
+        <div id="l-espace" class="col-md-12">
+
+          <div id="espace-carousel" class="carousel slide">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+              <div class="item active  shadowed-top shadowed-bottom">
+                <img src="img/slides/slide_01.jpg" alt="01">                
+              </div>
+              <div class="item shadowed-top shadowed-bottom">
+                <img src="img/slides/slide_02.jpg" alt="02">                
+              </div>
+              <div class="item shadowed-top shadowed-bottom">
+                <img src="img/slides/slide_03.jpg" alt="03">                
+              </div>              
+              <div class="item shadowed-top shadowed-bottom">
+                <img src="img/slides/slide_04.jpg" alt="04">                
+              </div>              
+              
+            </div>
+            <div class="container-bottom">
+              <div class="left"></div>
+              <div class="right">
+                <div class="arrow"></div>
+                <div class="right-fill"></div>
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#espace-carousel" data-slide="prev">
+              <span class="icon-left"></span>
+            </a>
+            <a class="right carousel-control" href="#espace-carousel" data-slide="next">
+              <span class="icon-right"></span>
+            </a>
+          </div>
+
+        </div>
+        <div class="col-md-12">
+          <div class="row">
+            <div id="l-espace-logo" class="col-md-12 text-center">
+              <img src="img/l_espace.png" alt="L'espace / La biscuiterie" />
+            </div>          
+          </div>
+
+          <div class="row">
+            <div class="container">
+              <div id="l-espace-text" class="col-sm-12 col-md-7 col-sm-offset-0 col-md-offset-1">
+                <p>
+                  <a class="startway" href="http://www.start-way.com/" target="_blank" title="">Start-Way</a> inaugure ce mois l'un des plus beaux espaces de la r&eacute;gion parisienne, <a class="biscuiterie" href="#" title="">&ldquo;La Biscuiterie&rdquo;</a> &agrave; Arcueil (15 minutes de Chatelet les Halles). <br>Ancienne biscuiterie r&eacute;nov&eacute;e avec un look de <span class="hidden-1080">&nbsp;</span>&laquo;loft industriel&raquo;, vous y aurez votre poste fixe, <span class="hidden-1080">&nbsp;</span>et acc&egrave;s &agrave; des installations exceptionnelles, cuisine, bar, <span class="hidden-1080">&nbsp;</span>et m&ecirc;me une salle de sport et un sauna !
+                </p>
+              </div>
+              <div class="clearfix visible-1080"></div>
+              <div id="l-espace-plan" class="col-sm-12 col-md-4">
+                <div id="l-espace-plan-img">
+                  <img src="img/plan.png" alt="">
+                </div>
+                <div id="l-espace-plan-text">
+                  <p>6 rue Gouyon du verger</p>
+                  <p>92300 Arcueil</p>
+                  <p class="station">Laplace /Arcueil-cachan</p>  
+                </div>
+                
+              </div>
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+      <div class="row">
+        <div id="concours" class="col-md-12">
+          <div class="container-bottom">
+            <div class="left"></div>
+            <div class="right">
+              <div class="arrow"></div>
+              <div class="right-fill"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="container">
+          <div id="concours-logo" class="col-md-12 text-center">
+            <img src="img/concours_logo.png" alt="Le concours" />            
+          </div>
+          <div id="concours-content" class="col-md-10 col-xs-12 col-md-offset-1 col-xs-offset-0">
+            <h3>
+              C'est tr&egrave;s simple, il faut aller tr&egrave;s vite ! <br>
+              &eacute;crivez-nous &agrave; <a href="mailto:concoursbiscuiterie@hopwork.com?subject=Concours Biscuiterie" "">concoursbiscuiterie@hopwork.com</a> <br>
+              en nous indiquant :
+            </h3>
+            <p>
+              - Votre URL de profil sur <a href="http://www.hopwork.com/" target="_blank" title="">Hopwork</a> <br>
+              - Votre lieu de travail actuel <br>
+              - Un mot gentil parce que on a tous besoin d'amour <br>
+              <br>
+              <span class="concours-big">Les <strong>10 premiers participants</strong> seront les gagnants !</span> <br>
+              <br>
+              <span class="concours-small">Pour ceux qui arriveront trop tard ou si vous souhaitez juste visiter l'espace et rencontrer l'<span class="concours-mid">&eacute;quipe Hopwork</span>, on trouvera un moment pour se rencontrer et prendre une bi&egrave;re ou un caf&eacute; ensemble, vous &ecirc;tes les bienvenus !</span>
+            </p>
+          </div>
+        </div>          
+      </div>
+      <div class="row">
+        <div id="contact" class="md-col-12 shadowed-top">
+          <div class="container">
+            <div id="contact-logo" class="col-md-12 text-center">
+              <img src="img/contact.png" alt="Les contacts" />            
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-sm-6 col-sm-offset-3 col-xs-12 col-s-offset-0 text-left">
+                  <p>
+                    - Par email : <a href="mailto:concoursbiscuiterie@hopwork.com?subject=Concours Biscuiterie">concoursbiscuiterie@hopwork.com</a> <br>
+                    - Par t&eacute;l&eacute;phone au 01 82 83 15 11
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="partenaires" class="col-md-12">
+          <div class="container">
+            <div id="back-top">
+              <a href="#a-propos" title=""><img src="img/arrow_top.png" alt="&uarr;"></a>
+            </div>
+            <h4>Les partenaires :</h4>
+            <div id="partenaire-1001" class="col-md-4  col-sm-4 col-xs-4 partenaire">
+              <a href="http://1001startups.fr/" title="" target="_blank">
+                <img src="img/1001-startups.png" alt="1001 Startups">
+              </a>
+            </div>
+            <div id="partenaire-paris-incubateur" class="col-md-4  col-sm-4 col-xs-4 partenaire">
+              <a href="http://siliconsentier.org/" target="_blank" title="">
+                <img src="img/le_camping_logo.png" alt="Le Camping">
+              </a>
+            </div>
+            <div id="partenaire-2412" class="col-md-4  col-sm-4 col-xs-4 partenaire">
+              <a href="http://2412.fr/" target="_blank" title="">
+                <img src="img/2412-logo.png" alt="2412">
+              </a>
+            </div>
+                        
+          </div>
+          
+          
+        </div>
+        
+      </div>
+      <div class="row">
+        <div id="footer" class="md-col-12">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <a href="http://www.hopwork.com/" target="_blank" title=""><img src="img/logo_hopwork_tn.png" alt="HopWork" /></a>
+              </div>                          
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-xs-6 text-center">
+                <p class="copyright">Copyright Hopwork - Tous droits r&eacute;serv&eacute;s </p>
+              </div>
+              <div class="col-md-6 col-xs-6 text-center">
+                <p class="copyright">Design by 2412 - ameliegraphic@gmail.com</p>
+              </div>
+            </div>
+          </div>          
+        </div>        
+      </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.smooth-scroll.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+  </body>
 </html>
